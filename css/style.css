@@ -48,7 +48,7 @@ html,body{
     /* text-align: right; */
 }
 .form{
-    padding:10px;
+    padding:20px;
     width: 400px;
     height: calc(100% + 30px);
     float: right;
@@ -88,6 +88,13 @@ html,body{
     width: 344px;
     height: 55px;
     border: 1px solid #ccc;
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    padding: 8px;    
 }
 
 .form .input-submit-container{
